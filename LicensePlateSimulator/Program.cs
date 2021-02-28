@@ -50,7 +50,7 @@ namespace LicensePlateSimulator
         {
             // Retrieve storage account from connection string.
             var storageAccount = CloudStorageAccount.Parse(
-                "<your blob storage endpoint>");
+                "<blob storage endpoint>");
 
             // Create the blob client.
             var blobClient = storageAccount.CreateCloudBlobClient();
