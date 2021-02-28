@@ -50,7 +50,7 @@ namespace LicensePlateSimulator
         {
             // Retrieve storage account from connection string.
             var storageAccount = CloudStorageAccount.Parse(
-                "DefaultEndpointsProtocol=https;AccountName=licenseplatesstorage;AccountKey=EAMIik/gc+nhU/M72joRrLDi8FBeBmb2dOdEOyeCm8qLyg4zlrKk7zKjVircKmgmKKeeRimvNPx1lXhiME0KRw==;EndpointSuffix=core.windows.net");
+                "<your blob storage endpoint>");
 
             // Create the blob client.
             var blobClient = storageAccount.CreateCloudBlobClient();
